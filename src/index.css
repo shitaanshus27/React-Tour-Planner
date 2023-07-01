@@ -10,6 +10,7 @@
 body {
   min-height: 100vh;
   font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
 }
 
 .container {
@@ -50,7 +51,7 @@ body {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .card:hover {
-  transition: all 1s ease-in-out;
+  transition: all 0.8s ease-in-out;
   transform: scale(1);
 }
 .image {
